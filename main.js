@@ -21,6 +21,11 @@ const gamecube = [
     }
 ]
 
+// Code to grab list of games from wikipedia
+for (var i = 0; i < table.rows.length; i++) {
+	var games = (table.rows[i].cells[0].getElementsByTagName('i')[0].textContent)
+	console.log(`"${games}"`)
+}
 
 
  

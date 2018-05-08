@@ -22,13 +22,14 @@ const gamecube = [
 ]
 
 // Code to grab list of games from wikipedia and creates an object for each game
+// Needs a if statement to write release date as Unreleased
 var table = document.querySelector('tbody')
 
 for (var i = 0; i < table.rows.length; i++) {
 	var gameTitles = (table.rows[i].cells[0].getElementsByTagName('i')[0].textContent);
 	var gameDeveloper = (table.rows[i].cells[1].firstChild.textContent);
-	var gamePublisher = (table.rows[i].cells[2].firstChild.textContent);
-	var releaseDate = (table.rows[i].cells[6].childNodes[1].textContent)
+    var gamePublisher = (table.rows[i].cells[2].firstChild.textContent);
+    var releaseDate = (table.rows[i].cells[6].childNodes[1].textContent)
 	console.info(`
 {
 	name: "${gameTitles}", 

@@ -49,3 +49,21 @@ for (var i = 0; i < table.rows.length; i++) {
 }
 
 
+/*
+var gamesData = document.querySelectorAll('article')
+
+for (let i = 0; i < gamesData.length; i++) {
+	var gameName = gamesData[i].getElementsByClassName('item-heading')[0].textContent;
+	var gameDeveloper = gamesData[i].getElementsByClassName('item-label-value')[0].textContent;
+	var gameReleaseDate = gamesData[i].getElementsByClassName('item-label-value')[1].textContent;
+	console.info(`
+	gameName: "${gameName.trim()}",
+	developer: "${gameDeveloper}",
+	releaseDate: "${gameReleaseDate}"
+`
+
+)
+	
+}
+*/
+

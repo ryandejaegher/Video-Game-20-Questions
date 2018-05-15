@@ -1823,3 +1823,36 @@ const snesGames = [
         gameCover: "http://assets1.ignimgs.com/2017/05/15/1-1494870901357_1024w.jpg"
     },
 ];
+
+function loadGame() {
+    var gameName = document.querySelector('#gameName');
+    var developer = document.querySelector('#developer');
+    var releaseDate = document.querySelector('#releaseDate');
+    var ignRank = document.querySelector('#ignRank');
+    var gameCover = document.querySelector('#gameCover');
+    var platformSelect = document.querySelector('select');
+
+    if (platformSelect.value === 'nes') {
+        var randomGame = nesGames[Math.floor(Math.random() * nesGames.length)];
+    } else if (platformSelect.value === 'snes') {
+        var randomGame = snesGames[Math.floor(Math.random() * snesGames.length)];
+    }
+
+    gameName.textContent = randomGame.gameName;
+    developer.textContent = randomGame.developer;
+    releaseDate.textContent = randomGame.releaseDate;
+    ignRank.textContent = randomGame.ignRank;
+    gameCover.setAttribute('src', randomGame.gameCover);
+}
+
+var myVar;
+
+function myFunction() {
+    document.getElementsByClassName("container").style.display = "none";
+    loadGame();
+    myVar = setTimeout(showPage, 1000);
+}
+
+function showPage() {
+  document.getElementsByClassName("container").style.display = "block";
+}

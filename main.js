@@ -1858,3 +1858,20 @@ function showPage() {
     var container = document.getElementsByClassName("container");
     container[0].style.display = "block";
 }
+
+/* List of questions for help
+
+"Is it a console exclusive?"
+"Was it released on optical media?"
+"Is it a first person shooter?"
+"Is it third person?"
+"Is it a PC game?"
+"Was it made by a Japanese developer?"
+"Is the game multiplatform?"
+"Was this game critically acclaimed"
+"Is it a licensed game?"
+"Is it part of a series?"
+"Is the game a sequel?"
+
+
+*/

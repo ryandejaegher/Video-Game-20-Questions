@@ -1848,11 +1848,13 @@ function loadGame() {
 var myVar;
 
 function myFunction() {
-    document.getElementsByClassName("container").style.display = "none";
+   var container = document.getElementsByClassName("container");
+    container[0].style.display = "none";
     loadGame();
-    myVar = setTimeout(showPage, 1000);
+    myVar = setTimeout(showPage, 500);
 }
 
 function showPage() {
-  document.getElementsByClassName("container").style.display = "block";
+    var container = document.getElementsByClassName("container");
+    container[0].style.display = "block";
 }

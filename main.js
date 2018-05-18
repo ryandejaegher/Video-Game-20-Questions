@@ -1824,6 +1824,22 @@ const snesGames = [
     },
 ];
 
+const ignTop100 = [];
+const gamecubeGames = [];
+const wiiGames = [];
+const wiiUGames = [];
+const genesisGames = [];
+const saturnGames = [];
+const dreamcastGames = []
+const playstationGames = [];
+const ps2Games = [];
+const ps3Games = [];
+const ps4Games = [];
+const xboxGames = [];
+const xbox360Games = [];
+const xboxOneGames = [];
+
+
 function loadGame() {
     var gameName = document.querySelector('#gameName');
     var developer = document.querySelector('#developer');

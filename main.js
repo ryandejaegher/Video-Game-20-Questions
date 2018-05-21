@@ -23,7 +23,7 @@ for (let i = 0; i < gamesData.length; i++) {
 }
 */
 
-console.log('yo');
+console.log('yes');
 //test
 const nesGames = [
     {

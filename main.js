@@ -923,904 +923,905 @@ const nesGames = [
     }
 
 ];
-const snesGames = [{
-    gameName: 'Final Fight',
-    developer: 'Capcom',
-    releaseDate: '1991',
-    ignRank: 100,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/100-1494870901462_1024w.jpg'
-},
-
-
-{
-    gameName: 'Tiny Toon Adventures: Buster Busts Loose!',
-    developer: 'Konami',
-    releaseDate: '1993',
-    ignRank: 99,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/99-1494870901461_640w.jpg'
-},
-
-
-{
-    gameName: 'Uniracers',
-    developer: 'DMA Design',
-    releaseDate: '1994',
-    ignRank: 98,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/98-1494870901460_640w.jpg'
-},
-
-
-{
-    gameName: 'Ultimate Mortal Kombat 3',
-    developer: 'Midway',
-    releaseDate: '1996',
-    ignRank: 97,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/97-1494870901459_640w.jpg'
-},
-
-
-{
-    gameName: 'Street Fighter Alpha 2',
-    developer: 'Capcom',
-    releaseDate: '1997',
-    ignRank: 96,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/96-1494870901459_640w.jpg'
-},
-
-
-{
-    gameName: 'Top Gear 2',
-    developer: 'Gremlin Interactive',
-    releaseDate: '1993',
-    ignRank: 95,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/95-1494870901458_640w.jpg'
-},
-
-
-{
-    gameName: 'The Adventures of Batman & Robin',
-    developer: 'Konami',
-    releaseDate: '1994',
-    ignRank: 94,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/94-1494870901457_640w.jpg'
-},
-
-
-{
-    gameName: 'Super Turrican 2',
-    developer: 'Factor 5',
-    releaseDate: '1995',
-    ignRank: 93,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/93-1494870901456_1024w.jpg'
-},
-
-
-{
-    gameName: 'Super Double Dragon',
-    developer: 'Technos',
-    releaseDate: '1992',
-    ignRank: 92,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/92-1494870901456_1024w.jpg'
-},
-
-
-{
-    gameName: 'Super Star Wars: The Empire Strikes Back',
-    developer: 'LucasArts',
-    releaseDate: '1993',
-    ignRank: 91,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/91-1494870901455_1024w.jpg'
-},
-
-
-{
-    gameName: 'Blackthorne',
-    developer: 'Blizzard',
-    releaseDate: '1994',
-    ignRank: 90,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/90-1494872921134_1024w.jpg'
-},
-
-
-{
-    gameName: 'Super Bomberman 2',
-    developer: 'Hudson',
-    releaseDate: '1994',
-    ignRank: 89,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/89-1494870901453_640w.jpg'
-},
-
-
-{
-    gameName: 'Sunset Riders',
-    developer: 'Konami',
-    releaseDate: '1993',
-    ignRank: 88,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/88-1494870901452_640w.jpg'
-},
-
-
-{
-    gameName: 'Sparkster',
-    developer: 'Konami',
-    releaseDate: '1994',
-    ignRank: 87,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/87-1494870901451_1024w.jpg'
-},
-
-
-{
-    gameName: 'Stunt Race FX',
-    developer: 'Nintendo EAD',
-    releaseDate: '1994',
-    ignRank: 86,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/86-1494870901449_640w.jpg'
-},
-
-
-{
-    gameName: 'Spider-Man and Venom: Maximum Carnage',
-    developer: 'Software Creations',
-    releaseDate: '1994',
-    ignRank: 85,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/85-1494872916116_640w.jpg'
-},
-
-
-{
-    gameName: 'Super Tennis',
-    developer: 'Tokyo Shoseki',
-    releaseDate: '1991',
-    ignRank: 84,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/84-1494870901447_640w.jpg'
-},
-
-
-{
-    gameName: 'Super Star Wars',
-    developer: 'LucasArts',
-    releaseDate: '1992',
-    ignRank: 83,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/83-1494870901446_640w.jpg'
-},
-
-
-{
-    gameName: 'Killer Instinct',
-    developer: 'Rare',
-    releaseDate: '1995',
-    ignRank: 82,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/82-1494870901445_640w.jpg'
-},
-
-
-{
-    gameName: 'The Death and Return of Superman',
-    developer: 'Sunsoft & Blizzard',
-    releaseDate: '1994',
-    ignRank: 81,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/81-1494870901444_1024w.jpg'
-},
-
-
-{
-    gameName: 'Pilotwings',
-    developer: 'Nintendo EAD',
-    releaseDate: '1991',
-    ignRank: 80,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/80-1494870901443_1024w.jpg'
-},
-
-
-{
-    gameName: 'Flashback: The Quest for Identity',
-    developer: 'Tiertix',
-    releaseDate: '1993',
-    ignRank: 79,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/79-1494870901442_640w.jpg'
-},
-
-
-{
-    gameName: 'X-Men: Mutant Apocalypse',
-    developer: 'Capcom',
-    releaseDate: '1994',
-    ignRank: 78,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/78-1494870901441_1024w.jpg'
-},
-
-
-{
-    gameName: 'Shadowrun',
-    developer: 'Beam Software',
-    releaseDate: '1993',
-    ignRank: 77,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/77-1494870901440_1024w.jpg'
-},
-
-
-{
-    gameName: 'Soul Blazer',
-    developer: 'Quintet',
-    releaseDate: '1992',
-    ignRank: 76,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/76-1494870901439_1024w.jpg'
-},
-
-
-{
-    gameName: 'Madden NFL \'94',
-    developer: 'Tiburon',
-    releaseDate: '1993',
-    ignRank: 75,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/75-1494870901438_1024w.jpg'
-},
-
-
-{
-    gameName: 'Illusion of Gaia',
-    developer: 'Quintet',
-    releaseDate: '1994',
-    ignRank: 74,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/74-1494870901436_640w.jpg'
-},
-
-
-{
-    gameName: 'Pocky & Rocky 2',
-    developer: 'Natsume',
-    releaseDate: '1994',
-    ignRank: 73,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/73-1494870901435_640w.jpg'
-},
-
-
-{
-    gameName: 'Rock n\' Roll Racing',
-    developer: 'Blizzard',
-    releaseDate: '1993',
-    ignRank: 72,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/72-1494870901435_1024w.jpg'
-},
-
-
-{
-    gameName: 'Jungle Strike',
-    developer: 'Electronic Arts',
-    releaseDate: '1993',
-    ignRank: 71,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/71-1494870901434_1024w.jpg'
-},
-
-
-{
-    gameName: 'Populous',
-    developer: 'Bullfrog',
-    releaseDate: '1991',
-    ignRank: 70,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/70-1494870901433_640w.jpg'
-},
-
-
-{
-    gameName: 'Out of this World',
-    developer: 'Eric Chahi',
-    releaseDate: '1992',
-    ignRank: 69,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/69-1494870901432_1024w.jpg'
-},
-
-
-{
-    gameName: 'Kirby\'s Adventure',
-    developer: 'Compile & HAL Laboratory',
-    releaseDate: '1995',
-    ignRank: 68,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/68-1494870901431_1024w.jpg'
-},
-
-
-{
-    gameName: 'Mega Man X3',
-    developer: 'Capcom',
-    releaseDate: '1996',
-    ignRank: 67,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/67-1494870901431_1024w.jpg'
-},
-
-
-{
-    gameName: 'The Lion King',
-    developer: 'Virgin Interactive',
-    releaseDate: '1994',
-    ignRank: 66,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/66-1494870901429_640w.jpg'
-},
-
-
-{
-    gameName: 'R-Type III: The Third Lightning',
-    developer: 'Irem',
-    releaseDate: '1994',
-    ignRank: 65,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/65-1494870901428_640w.jpg'
-},
-
-
-{
-    gameName: 'International Superstar Soccer',
-    developer: 'Konami',
-    releaseDate: '1995',
-    ignRank: 64,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/64-1494870901427_640w.jpg'
-},
-
-
-{
-    gameName: 'Fatal Fury 2',
-    developer: 'SNK & Takara',
-    releaseDate: '1992',
-    ignRank: 63,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/63-1494870901426_1024w.jpg'
-},
-
-
-{
-    gameName: 'Kirby\'s Dream Land 3',
-    developer: 'HAL Laboratory',
-    releaseDate: '1997',
-    ignRank: 62,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/62-1494870901424_640w.jpg'
-},
-
-
-{
-    gameName: 'Joe & Mac 2: Lost in the Tropics',
-    developer: 'Data East',
-    releaseDate: '1994',
-    ignRank: 61,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/61-1494870901423_1024w.jpg'
-},
-
-
-{
-    gameName: 'Aladdin',
-    developer: 'Capcom',
-    releaseDate: '1993',
-    ignRank: 60,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/60-1494870901422_640w.jpg'
-},
-
-
-{
-    gameName: 'NHL \'94',
-    developer: 'Electronic Arts',
-    releaseDate: '1993',
-    ignRank: 59,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/59-1494870901421_1024w.jpg'
-},
-
-
-{
-    gameName: 'Donkey Kong Country 3: Dixie Kong\'s Double Trouble!',
-    developer: 'Rare',
-    releaseDate: '1996',
-    ignRank: 58,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/58-1494870901420_1024w.jpg'
-},
-
-
-{
-    gameName: 'Earthworm Jim',
-    developer: 'Shiny Entertainment',
-    releaseDate: '1994',
-    ignRank: 57,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/57-1494872905229_1024w.jpg'
-},
-
-
-{
-    gameName: 'Alien 3',
-    developer: 'Probe',
-    releaseDate: '1993',
-    ignRank: 56,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/56-1494870901418_640w.jpg'
-},
-
-
-{
-    gameName: 'Axelay',
-    developer: ' Konami',
-    releaseDate: '1992',
-    ignRank: 55,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/55-1494870901417_1024w.jpg'
-},
-
-
-{
-    gameName: 'Bust-A-Move',
-    developer: 'Taito',
-    releaseDate: '1994',
-    ignRank: 54,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/54-1494870901416_1024w.jpg'
-},
-
-
-{
-    gameName: 'Breath of Fire II',
-    developer: 'Capcom',
-    releaseDate: '1995',
-    ignRank: 53,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/53-1494872899806_640w.jpg'
-},
-
-
-{
-    gameName: 'Ken Griffey, Jr.\'s Winning Run',
-    developer: 'Rare',
-    releaseDate: '1996',
-    ignRank: 52,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/52-1494870901413_1024w.jpg'
-},
-
-
-{
-    gameName: 'Super Ghouls n\' Ghosts',
-    developer: 'Capcom',
-    releaseDate: '1991',
-    ignRank: 51,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/51-1494872896320_640w.jpg'
-},
-
-
-{
-    gameName: 'Yoshi\'s Cookie',
-    developer: 'Nintendo R&D1',
-    releaseDate: '1993',
-    ignRank: 50,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/50-1494870901411_640w.jpg'
-},
-
-
-{
-    gameName: 'Super Bomberman',
-    developer: 'Hudson',
-    releaseDate: '1993',
-    ignRank: 49,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/49-1494870901410_640w.jpg'
-},
-
-
-{
-    gameName: 'Zombies Ate My Neighbors',
-    developer: 'LucasArts',
-    releaseDate: '1993',
-    ignRank: 48,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/48-1494870901410_1024w.jpg'
-},
-
-
-{
-    gameName: 'Kirby Super Star',
-    developer: 'HAL Laboratory',
-    releaseDate: '1996',
-    ignRank: 47,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/47-1494870901409_640w.jpg'
-},
-
-
-{
-    gameName: 'Harvest Moon',
-    developer: 'Pack-in-Video',
-    releaseDate: '1997',
-    ignRank: 46,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/46-1494870901408_1024w.jpg'
-},
-
-
-{
-    gameName: 'Gradius III',
-    developer: 'Konami',
-    releaseDate: '1991',
-    ignRank: 45,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/45-1494872889804_640w.jpg'
-},
-
-
-{
-    gameName: 'Demon\'s Crest',
-    developer: 'Capcom',
-    releaseDate: '1994',
-    ignRank: 44,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/44-1494870901406_640w.jpg'
-},
-
-
-{
-    gameName: 'Breath of Fire',
-    developer: 'Capcom',
-    releaseDate: '1994',
-    ignRank: 43,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/43-1494870901405_1024w.jpg'
-},
-
-
-{
-    gameName: 'EVO: Search for Eden',
-    developer: 'Almanic',
-    releaseDate: '1993',
-    ignRank: 42,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/42-1494872883710_640w.jpg'
-},
-
-
-{
-    gameName: 'Ogre Battle: March of the Black Queen',
-    developer: 'Quest',
-    releaseDate: '1995',
-    ignRank: 41,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/41-1494872883707_640w.jpg'
-},
-
-
-{
-    gameName: 'Earthworm Jim 2',
-    developer: 'Shiny Entertainment',
-    releaseDate: '1995',
-    ignRank: 40,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/40-1494870901403_640w.jpg'
-},
-
-
-{
-    gameName: 'Teenage Mutant Ninja Turtles: Turtles in Time',
-    developer: 'Konami',
-    releaseDate: '1992',
-    ignRank: 39,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/39-1494870901401_640w.jpg'
-},
-
-
-{
-    gameName: 'Kirby\'s Dream Course',
-    developer: 'HAL Laboratory',
-    releaseDate: '1995',
-    ignRank: 38,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/38-1494870901400_640w.jpg'
-},
-
-
-{
-    gameName: 'UN Squadron',
-    developer: 'Capcom',
-    releaseDate: '1991',
-    ignRank: 37,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/37-1494870901398_1024w.jpg'
-},
-
-
-{
-    gameName: 'NBA Jam',
-    developer: 'Midway',
-    releaseDate: '1993',
-    ignRank: 36,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/36-1494870901397_1024w.jpg'
-},
-
-
-{
-    gameName: 'Sim City',
-    developer: 'Nintendo EAD',
-    releaseDate: '1991',
-    ignRank: 35,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/35-1494870901396_1024w.jpg'
-},
-
-
-{
-    gameName: 'Lufia II: Rise of the Sinistrals',
-    developer: 'Neverland',
-    releaseDate: '1996',
-    ignRank: 34,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/34-1494870901394_1024w.jpg'
-},
-
-
-{
-    gameName: 'Metal Warriors',
-    developer: 'LucasArts',
-    releaseDate: '1995',
-    ignRank: 33,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/33-1494870901393_1024w.jpg'
-},
-
-
-{
-    gameName: 'Legend of the Mystical Ninja',
-    developer: 'Konami',
-    releaseDate: '1992',
-    ignRank: 32,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/32-1494870901392_1024w.jpg'
-},
-
-
-{
-    gameName: 'Mega Man X2',
-    developer: 'Capcom',
-    releaseDate: '1995',
-    ignRank: 31,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/31-1494870901390_640w.jpg'
-},
-
-
-{
-    gameName: 'The Lost Vikings',
-    developer: 'Blizzard',
-    releaseDate: '1992',
-    ignRank: 30,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/30-1494870901389_1024w.jpg'
-},
-
-
-{
-    gameName: 'Wario\'s Woods',
-    developer: 'Nintendo R&D1',
-    releaseDate: '1994',
-    ignRank: 29,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/29-1494870901388_640w.jpg'
-},
-
-
-{
-    gameName: 'Donkey Kong Country',
-    developer: 'Rare',
-    releaseDate: '1994',
-    ignRank: 28,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/28-1494870901387_640w.jpg'
-},
-
-
-{
-    gameName: 'Tetris & Dr. Mario',
-    developer: 'Nintendo',
-    releaseDate: '1994',
-    ignRank: 27,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/27-1494870901386_640w.jpg'
-},
-
-
-{
-    gameName: 'Super Star Wars: Return of the Jedi',
-    developer: 'LucasArts',
-    releaseDate: '1994',
-    ignRank: 26,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/26-1494870901385_640w.jpg'
-},
-
-
-{
-    gameName: 'Mortal Kombat II',
-    developer: 'Midway',
-    releaseDate: '1994',
-    ignRank: 25,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/25-1494870901384_640w.jpg'
-},
-
-
-{
-    gameName: 'Contra III: The Alien Wars',
-    developer: 'Konami',
-    releaseDate: '1992',
-    ignRank: 24,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/24-1494870901384_640w.jpg'
-},
-
-
-{
-    gameName: 'The Magical Quest Starring Mickey Mouse',
-    developer: 'Capcom',
-    releaseDate: '1992',
-    ignRank: 23,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/23-1494870901383_1024w.jpg'
-},
-
-
-{
-    gameName: 'Mario Paint',
-    developer: 'Nintendo',
-    releaseDate: '1992',
-    ignRank: 22,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/22-1494870901382_1024w.jpg'
-},
-
-
-{
-    gameName: 'Super Castlevania IV',
-    developer: 'Konami',
-    releaseDate: '1991',
-    ignRank: 21,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/21-1494872872321_640w.jpg'
-},
-
-
-{
-    gameName: 'Super Mario All-Stars',
-    developer: 'Nintendo',
-    releaseDate: '1994',
-    ignRank: 20,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/20-1494872869121_640w.jpg'
-},
-
-
-{
-    gameName: 'ActRaiser',
-    developer: 'Quintet',
-    releaseDate: '1991',
-    ignRank: 19,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/19-1494870901378_1024w.jpg'
-},
-
-
-{
-    gameName: 'F-Zero',
-    developer: 'Nintendo',
-    releaseDate: '1991',
-    ignRank: 18,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/18-1494872860230_640w.jpg'
-},
-
-
-{
-    gameName: 'Super Punch-Out!!',
-    developer: 'Nintendo',
-    releaseDate: '1994',
-    ignRank: 17,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/17-1494870901377_640w.jpg'
-},
-
-
-{
-    gameName: 'Donkey Kong Country 2: Diddy Kong\'s Quest',
-    developer: 'Rare',
-    releaseDate: '1995',
-    ignRank: 16,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/16-1494870901376_640w.jpg'
-},
-
-
-{
-    gameName: 'Tetris Attack',
-    developer: 'Tetris Attack',
-    releaseDate: '1996',
-    ignRank: 15,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/15-1494870901375_1024w.jpg'
-},
-
-
-{
-    gameName: 'Final Fantasy IV',
-    developer: 'Square',
-    releaseDate: '1991',
-    ignRank: 14,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/14-1494870901374_640w.jpg'
-},
-
-
-{
-    gameName: 'EarthBound',
-    developer: 'Ape, HAL Laboratory',
-    releaseDate: '1995',
-    ignRank: 13,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/13-1494870901373_1024w.jpg'
-},
-
-
-{
-    gameName: 'Mega Man X',
-    developer: 'Capcom',
-    releaseDate: '1993',
-    ignRank: 12,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/12-1494870901371_1024w.jpg'
-},
-
-
-{
-    gameName: 'Secret of Mana',
-    developer: 'Square',
-    releaseDate: '1993',
-    ignRank: 11,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/11-1494870901369_1024w.jpg'
-},
-
-
-{
-    gameName: 'Super Mario RPG: Legend of the Seven Stars',
-    developer: 'Nintendo',
-    releaseDate: '1996',
-    ignRank: 10,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/10-1494870901367_1024w.jpg'
-},
-
-
-{
-    gameName: 'Star Fox',
-    developer: 'Nintendo',
-    releaseDate: '1993',
-    ignRank: 9,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/9-1494870901366_1024w.jpg'
-},
-
-
-{
-    gameName: 'Super Mario Kart',
-    developer: 'Nintendo',
-    releaseDate: '1992',
-    ignRank: 8,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/8-1494870901365_1024w.jpg'
-},
-
-
-{
-    gameName: 'Super Mario World 2: Yoshi\'s Island',
-    developer: 'Nintendo',
-    releaseDate: '1996',
-    ignRank: 7,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/7-1494870901364_1024w.jpg'
-},
-
-
-{
-    gameName: 'Super Street Fighter II Turbo',
-    developer: 'Capcom',
-    releaseDate: '1993',
-    ignRank: 6,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/6-1494870901363_640w.jpg'
-},
-
-
-{
-    gameName: 'Super Mario World',
-    developer: 'Nintendo',
-    releaseDate: '1991',
-    ignRank: 5,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/5-1494870901363_640w.jpg'
-},
-
-
-{
-    gameName: 'Final Fantasy VI',
-    developer: 'Square',
-    releaseDate: '1994',
-    ignRank: 4,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/4-1494870901362_640w.jpg'
-},
-
-
-{
-    gameName: 'Super Metroid',
-    developer: 'Nintendo',
-    releaseDate: '1994',
-    ignRank: 3,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/3-1494870901361_1024w.jpg'
-},
-
-
-{
-    gameName: 'Chrono Trigger',
-    developer: 'Square',
-    releaseDate: '1995',
-    ignRank: 2,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/2-1494870901360_640w.jpg'
-},
-
-
-{
-    gameName: 'The Legend of Zelda: A Link to the Past',
-    developer: 'Nintendo',
-    releaseDate: '1992',
-    ignRank: 1,
-    gameCover: 'http://assets1.ignimgs.com/2017/05/15/1-1494870901357_1024w.jpg'
-},
+const snesGames = [
+    {
+        gameName: 'Final Fight',
+        developer: 'Capcom',
+        releaseDate: '1991',
+        ignRank: 100,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/100-1494870901462_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Tiny Toon Adventures: Buster Busts Loose!',
+        developer: 'Konami',
+        releaseDate: '1993',
+        ignRank: 99,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/99-1494870901461_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Uniracers',
+        developer: 'DMA Design',
+        releaseDate: '1994',
+        ignRank: 98,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/98-1494870901460_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Ultimate Mortal Kombat 3',
+        developer: 'Midway',
+        releaseDate: '1996',
+        ignRank: 97,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/97-1494870901459_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Street Fighter Alpha 2',
+        developer: 'Capcom',
+        releaseDate: '1997',
+        ignRank: 96,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/96-1494870901459_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Top Gear 2',
+        developer: 'Gremlin Interactive',
+        releaseDate: '1993',
+        ignRank: 95,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/95-1494870901458_640w.jpg'
+    },
+
+
+    {
+        gameName: 'The Adventures of Batman & Robin',
+        developer: 'Konami',
+        releaseDate: '1994',
+        ignRank: 94,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/94-1494870901457_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Super Turrican 2',
+        developer: 'Factor 5',
+        releaseDate: '1995',
+        ignRank: 93,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/93-1494870901456_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Super Double Dragon',
+        developer: 'Technos',
+        releaseDate: '1992',
+        ignRank: 92,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/92-1494870901456_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Super Star Wars: The Empire Strikes Back',
+        developer: 'LucasArts',
+        releaseDate: '1993',
+        ignRank: 91,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/91-1494870901455_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Blackthorne',
+        developer: 'Blizzard',
+        releaseDate: '1994',
+        ignRank: 90,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/90-1494872921134_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Super Bomberman 2',
+        developer: 'Hudson',
+        releaseDate: '1994',
+        ignRank: 89,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/89-1494870901453_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Sunset Riders',
+        developer: 'Konami',
+        releaseDate: '1993',
+        ignRank: 88,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/88-1494870901452_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Sparkster',
+        developer: 'Konami',
+        releaseDate: '1994',
+        ignRank: 87,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/87-1494870901451_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Stunt Race FX',
+        developer: 'Nintendo EAD',
+        releaseDate: '1994',
+        ignRank: 86,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/86-1494870901449_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Spider-Man and Venom: Maximum Carnage',
+        developer: 'Software Creations',
+        releaseDate: '1994',
+        ignRank: 85,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/85-1494872916116_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Super Tennis',
+        developer: 'Tokyo Shoseki',
+        releaseDate: '1991',
+        ignRank: 84,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/84-1494870901447_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Super Star Wars',
+        developer: 'LucasArts',
+        releaseDate: '1992',
+        ignRank: 83,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/83-1494870901446_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Killer Instinct',
+        developer: 'Rare',
+        releaseDate: '1995',
+        ignRank: 82,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/82-1494870901445_640w.jpg'
+    },
+
+
+    {
+        gameName: 'The Death and Return of Superman',
+        developer: 'Sunsoft & Blizzard',
+        releaseDate: '1994',
+        ignRank: 81,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/81-1494870901444_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Pilotwings',
+        developer: 'Nintendo EAD',
+        releaseDate: '1991',
+        ignRank: 80,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/80-1494870901443_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Flashback: The Quest for Identity',
+        developer: 'Tiertix',
+        releaseDate: '1993',
+        ignRank: 79,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/79-1494870901442_640w.jpg'
+    },
+
+
+    {
+        gameName: 'X-Men: Mutant Apocalypse',
+        developer: 'Capcom',
+        releaseDate: '1994',
+        ignRank: 78,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/78-1494870901441_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Shadowrun',
+        developer: 'Beam Software',
+        releaseDate: '1993',
+        ignRank: 77,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/77-1494870901440_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Soul Blazer',
+        developer: 'Quintet',
+        releaseDate: '1992',
+        ignRank: 76,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/76-1494870901439_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Madden NFL \'94',
+        developer: 'Tiburon',
+        releaseDate: '1993',
+        ignRank: 75,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/75-1494870901438_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Illusion of Gaia',
+        developer: 'Quintet',
+        releaseDate: '1994',
+        ignRank: 74,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/74-1494870901436_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Pocky & Rocky 2',
+        developer: 'Natsume',
+        releaseDate: '1994',
+        ignRank: 73,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/73-1494870901435_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Rock n\' Roll Racing',
+        developer: 'Blizzard',
+        releaseDate: '1993',
+        ignRank: 72,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/72-1494870901435_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Jungle Strike',
+        developer: 'Electronic Arts',
+        releaseDate: '1993',
+        ignRank: 71,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/71-1494870901434_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Populous',
+        developer: 'Bullfrog',
+        releaseDate: '1991',
+        ignRank: 70,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/70-1494870901433_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Out of this World',
+        developer: 'Eric Chahi',
+        releaseDate: '1992',
+        ignRank: 69,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/69-1494870901432_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Kirby\'s Adventure',
+        developer: 'Compile & HAL Laboratory',
+        releaseDate: '1995',
+        ignRank: 68,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/68-1494870901431_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Mega Man X3',
+        developer: 'Capcom',
+        releaseDate: '1996',
+        ignRank: 67,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/67-1494870901431_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'The Lion King',
+        developer: 'Virgin Interactive',
+        releaseDate: '1994',
+        ignRank: 66,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/66-1494870901429_640w.jpg'
+    },
+
+
+    {
+        gameName: 'R-Type III: The Third Lightning',
+        developer: 'Irem',
+        releaseDate: '1994',
+        ignRank: 65,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/65-1494870901428_640w.jpg'
+    },
+
+
+    {
+        gameName: 'International Superstar Soccer',
+        developer: 'Konami',
+        releaseDate: '1995',
+        ignRank: 64,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/64-1494870901427_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Fatal Fury 2',
+        developer: 'SNK & Takara',
+        releaseDate: '1992',
+        ignRank: 63,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/63-1494870901426_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Kirby\'s Dream Land 3',
+        developer: 'HAL Laboratory',
+        releaseDate: '1997',
+        ignRank: 62,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/62-1494870901424_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Joe & Mac 2: Lost in the Tropics',
+        developer: 'Data East',
+        releaseDate: '1994',
+        ignRank: 61,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/61-1494870901423_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Aladdin',
+        developer: 'Capcom',
+        releaseDate: '1993',
+        ignRank: 60,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/60-1494870901422_640w.jpg'
+    },
+
+
+    {
+        gameName: 'NHL \'94',
+        developer: 'Electronic Arts',
+        releaseDate: '1993',
+        ignRank: 59,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/59-1494870901421_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Donkey Kong Country 3: Dixie Kong\'s Double Trouble!',
+        developer: 'Rare',
+        releaseDate: '1996',
+        ignRank: 58,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/58-1494870901420_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Earthworm Jim',
+        developer: 'Shiny Entertainment',
+        releaseDate: '1994',
+        ignRank: 57,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/57-1494872905229_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Alien 3',
+        developer: 'Probe',
+        releaseDate: '1993',
+        ignRank: 56,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/56-1494870901418_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Axelay',
+        developer: ' Konami',
+        releaseDate: '1992',
+        ignRank: 55,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/55-1494870901417_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Bust-A-Move',
+        developer: 'Taito',
+        releaseDate: '1994',
+        ignRank: 54,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/54-1494870901416_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Breath of Fire II',
+        developer: 'Capcom',
+        releaseDate: '1995',
+        ignRank: 53,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/53-1494872899806_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Ken Griffey, Jr.\'s Winning Run',
+        developer: 'Rare',
+        releaseDate: '1996',
+        ignRank: 52,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/52-1494870901413_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Super Ghouls n\' Ghosts',
+        developer: 'Capcom',
+        releaseDate: '1991',
+        ignRank: 51,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/51-1494872896320_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Yoshi\'s Cookie',
+        developer: 'Nintendo R&D1',
+        releaseDate: '1993',
+        ignRank: 50,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/50-1494870901411_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Super Bomberman',
+        developer: 'Hudson',
+        releaseDate: '1993',
+        ignRank: 49,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/49-1494870901410_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Zombies Ate My Neighbors',
+        developer: 'LucasArts',
+        releaseDate: '1993',
+        ignRank: 48,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/48-1494870901410_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Kirby Super Star',
+        developer: 'HAL Laboratory',
+        releaseDate: '1996',
+        ignRank: 47,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/47-1494870901409_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Harvest Moon',
+        developer: 'Pack-in-Video',
+        releaseDate: '1997',
+        ignRank: 46,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/46-1494870901408_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Gradius III',
+        developer: 'Konami',
+        releaseDate: '1991',
+        ignRank: 45,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/45-1494872889804_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Demon\'s Crest',
+        developer: 'Capcom',
+        releaseDate: '1994',
+        ignRank: 44,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/44-1494870901406_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Breath of Fire',
+        developer: 'Capcom',
+        releaseDate: '1994',
+        ignRank: 43,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/43-1494870901405_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'EVO: Search for Eden',
+        developer: 'Almanic',
+        releaseDate: '1993',
+        ignRank: 42,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/42-1494872883710_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Ogre Battle: March of the Black Queen',
+        developer: 'Quest',
+        releaseDate: '1995',
+        ignRank: 41,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/41-1494872883707_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Earthworm Jim 2',
+        developer: 'Shiny Entertainment',
+        releaseDate: '1995',
+        ignRank: 40,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/40-1494870901403_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Teenage Mutant Ninja Turtles: Turtles in Time',
+        developer: 'Konami',
+        releaseDate: '1992',
+        ignRank: 39,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/39-1494870901401_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Kirby\'s Dream Course',
+        developer: 'HAL Laboratory',
+        releaseDate: '1995',
+        ignRank: 38,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/38-1494870901400_640w.jpg'
+    },
+
+
+    {
+        gameName: 'UN Squadron',
+        developer: 'Capcom',
+        releaseDate: '1991',
+        ignRank: 37,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/37-1494870901398_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'NBA Jam',
+        developer: 'Midway',
+        releaseDate: '1993',
+        ignRank: 36,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/36-1494870901397_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Sim City',
+        developer: 'Nintendo EAD',
+        releaseDate: '1991',
+        ignRank: 35,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/35-1494870901396_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Lufia II: Rise of the Sinistrals',
+        developer: 'Neverland',
+        releaseDate: '1996',
+        ignRank: 34,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/34-1494870901394_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Metal Warriors',
+        developer: 'LucasArts',
+        releaseDate: '1995',
+        ignRank: 33,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/33-1494870901393_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Legend of the Mystical Ninja',
+        developer: 'Konami',
+        releaseDate: '1992',
+        ignRank: 32,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/32-1494870901392_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Mega Man X2',
+        developer: 'Capcom',
+        releaseDate: '1995',
+        ignRank: 31,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/31-1494870901390_640w.jpg'
+    },
+
+
+    {
+        gameName: 'The Lost Vikings',
+        developer: 'Blizzard',
+        releaseDate: '1992',
+        ignRank: 30,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/30-1494870901389_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Wario\'s Woods',
+        developer: 'Nintendo R&D1',
+        releaseDate: '1994',
+        ignRank: 29,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/29-1494870901388_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Donkey Kong Country',
+        developer: 'Rare',
+        releaseDate: '1994',
+        ignRank: 28,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/28-1494870901387_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Tetris & Dr. Mario',
+        developer: 'Nintendo',
+        releaseDate: '1994',
+        ignRank: 27,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/27-1494870901386_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Super Star Wars: Return of the Jedi',
+        developer: 'LucasArts',
+        releaseDate: '1994',
+        ignRank: 26,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/26-1494870901385_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Mortal Kombat II',
+        developer: 'Midway',
+        releaseDate: '1994',
+        ignRank: 25,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/25-1494870901384_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Contra III: The Alien Wars',
+        developer: 'Konami',
+        releaseDate: '1992',
+        ignRank: 24,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/24-1494870901384_640w.jpg'
+    },
+
+
+    {
+        gameName: 'The Magical Quest Starring Mickey Mouse',
+        developer: 'Capcom',
+        releaseDate: '1992',
+        ignRank: 23,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/23-1494870901383_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Mario Paint',
+        developer: 'Nintendo',
+        releaseDate: '1992',
+        ignRank: 22,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/22-1494870901382_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Super Castlevania IV',
+        developer: 'Konami',
+        releaseDate: '1991',
+        ignRank: 21,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/21-1494872872321_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Super Mario All-Stars',
+        developer: 'Nintendo',
+        releaseDate: '1994',
+        ignRank: 20,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/20-1494872869121_640w.jpg'
+    },
+
+
+    {
+        gameName: 'ActRaiser',
+        developer: 'Quintet',
+        releaseDate: '1991',
+        ignRank: 19,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/19-1494870901378_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'F-Zero',
+        developer: 'Nintendo',
+        releaseDate: '1991',
+        ignRank: 18,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/18-1494872860230_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Super Punch-Out!!',
+        developer: 'Nintendo',
+        releaseDate: '1994',
+        ignRank: 17,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/17-1494870901377_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Donkey Kong Country 2: Diddy Kong\'s Quest',
+        developer: 'Rare',
+        releaseDate: '1995',
+        ignRank: 16,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/16-1494870901376_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Tetris Attack',
+        developer: 'Tetris Attack',
+        releaseDate: '1996',
+        ignRank: 15,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/15-1494870901375_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Final Fantasy IV',
+        developer: 'Square',
+        releaseDate: '1991',
+        ignRank: 14,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/14-1494870901374_640w.jpg'
+    },
+
+
+    {
+        gameName: 'EarthBound',
+        developer: 'Ape, HAL Laboratory',
+        releaseDate: '1995',
+        ignRank: 13,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/13-1494870901373_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Mega Man X',
+        developer: 'Capcom',
+        releaseDate: '1993',
+        ignRank: 12,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/12-1494870901371_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Secret of Mana',
+        developer: 'Square',
+        releaseDate: '1993',
+        ignRank: 11,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/11-1494870901369_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Super Mario RPG: Legend of the Seven Stars',
+        developer: 'Nintendo',
+        releaseDate: '1996',
+        ignRank: 10,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/10-1494870901367_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Star Fox',
+        developer: 'Nintendo',
+        releaseDate: '1993',
+        ignRank: 9,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/9-1494870901366_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Super Mario Kart',
+        developer: 'Nintendo',
+        releaseDate: '1992',
+        ignRank: 8,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/8-1494870901365_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Super Mario World 2: Yoshi\'s Island',
+        developer: 'Nintendo',
+        releaseDate: '1996',
+        ignRank: 7,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/7-1494870901364_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Super Street Fighter II Turbo',
+        developer: 'Capcom',
+        releaseDate: '1993',
+        ignRank: 6,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/6-1494870901363_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Super Mario World',
+        developer: 'Nintendo',
+        releaseDate: '1991',
+        ignRank: 5,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/5-1494870901363_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Final Fantasy VI',
+        developer: 'Square',
+        releaseDate: '1994',
+        ignRank: 4,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/4-1494870901362_640w.jpg'
+    },
+
+
+    {
+        gameName: 'Super Metroid',
+        developer: 'Nintendo',
+        releaseDate: '1994',
+        ignRank: 3,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/3-1494870901361_1024w.jpg'
+    },
+
+
+    {
+        gameName: 'Chrono Trigger',
+        developer: 'Square',
+        releaseDate: '1995',
+        ignRank: 2,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/2-1494870901360_640w.jpg'
+    },
+
+
+    {
+        gameName: 'The Legend of Zelda: A Link to the Past',
+        developer: 'Nintendo',
+        releaseDate: '1992',
+        ignRank: 1,
+        gameCover: 'http://assets1.ignimgs.com/2017/05/15/1-1494870901357_1024w.jpg'
+    },
 ];
 
 const ignTop100 = [];
@@ -1869,7 +1870,7 @@ function myFunction() {
 
 function showPage() {
     var container = document.getElementsByClassName('container');
-    container[0].style.display = 'block';
+    container[0].style.display = 'grid';
 }
 
 

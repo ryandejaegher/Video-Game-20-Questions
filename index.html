@@ -12,24 +12,33 @@
 </head>
 
 <body>
+    <nav class="headerNav">
+        <a href="#">Video Game 20 Questions</a>
+    </nav>
     <div class="container">
         <img id="gameCover" src="" alt="">
-        <ul>
-            <li id="gameName">Final Fight</li>
-            <li id="developer">Capcom</li>
-            <li id="releaseDate">1991</li>
-            <li id="ignRank">100</li>
-        </ul>
-        <button onclick="myFunction()">Get Game</button>
-        <button onclick="">Need Help?</button>
+        <div class="gameInfo">
+            <h3>Game</h3>
+            <h2 id="gameName"></h2>
+            <h3>Developed By</h3>
+            <h2 id="developer"></h2>
+            <h3>Released</h3>
+            <h2 id="releaseDate"></h2>
+            <h3>IGN Top 100 Rank</h3>
+            <h2 id="ignRank"></h2>
+        </div>
 
         <form>
             <select name="platform">
-              <option value="nes">NES</option>
-              <option value="snes">SNES</option>
+                <option value="nes">NES</option>
+                <option value="snes">SNES</option>
             </select>
-          </form>
+        </form>
     </div>
+    <div class="footerButtons">
+            <button onclick="myFunction()">Get Game</button>
+            <button onclick="">Need Help?</button>
+        </div>
 </body>
 
 </html>

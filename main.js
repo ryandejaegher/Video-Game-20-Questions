@@ -23,6 +23,7 @@ for (let i = 0; i < gamesData.length; i++) {
 }
 */
 
+console.log('yo')
 const nesGames = [
     {
         gameName: 'Ice Hockey',

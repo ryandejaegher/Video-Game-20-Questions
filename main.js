@@ -23,6 +23,7 @@ for (let i = 0; i < gamesData.length; i++) {
 }
 */
 
+
 const nesGames = [{
         gameName: "Ice Hockey",
         developer: "Nintendo",
@@ -1824,6 +1825,7 @@ const snesGames = [
     },
 ];
 
+console.log('hello world');
 const ignTop100 = [];
 const gamecubeGames = [];
 const wiiGames = [];

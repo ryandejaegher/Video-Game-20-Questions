@@ -23,9 +23,8 @@ for (let i = 0; i < gamesData.length; i++) {
 }
 */
 
-console.log('yes');
-//test
 const nesGames = [
+    {
         gameName: 'Ice Hockey',
         developer: 'Nintendo',
         releaseDate: '1988',
@@ -1824,8 +1823,6 @@ const snesGames = [{
 },
 ];
 
-console.log('hello world');
-
 const ignTop100 = [];
 const gamecubeGames = [];
 const wiiGames = [];
@@ -1852,7 +1849,7 @@ function loadGame() {
     if (platformSelect.value === 'nes') {
         var randomGame = nesGames[Math.floor(Math.random() * nesGames.length)];
     } else if (platformSelect.value === 'snes') {
-        var randomGame = snesGames[Math.floor(Math.random() * snesGames.length)];
+        randomGame = snesGames[Math.floor(Math.random() * snesGames.length)];
     }
 
     gameName.textContent = randomGame.gameName;
@@ -1862,9 +1859,8 @@ function loadGame() {
     gameCover.setAttribute('src', randomGame.gameCover);
 }
 
-var myVar;
-
 function myFunction() {
+    var myVar;
     var container = document.getElementsByClassName('container');
     container[0].style.display = 'none';
     loadGame();

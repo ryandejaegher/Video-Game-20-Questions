@@ -1862,15 +1862,24 @@ function loadGame() {
 
 function myFunction() {
     var myVar;
-    var container = document.getElementsByClassName('container');
-    container[0].style.display = 'none';
+    var gameInfo = document.getElementsByClassName('gameInfo');
+    var loader = document.querySelector('.preloader-wrapper');
+    gameInfo[0].style.display = 'none';
+    if (gameInfo[0].style.display === 'none') {
+        loader.classList.add('active');
+    }
     loadGame();
-    myVar = setTimeout(showPage, 500);
+    myVar = setTimeout(showPage, 1000);
 }
 
 function showPage() {
-    var container = document.getElementsByClassName('container');
-    container[0].style.display = 'grid';
+    var gameInfo = document.getElementsByClassName('gameInfo');
+    gameInfo[0].style.display = 'flex';
+    var loader = document.querySelector('.preloader-wrapper');
+    if (gameInfo[0].style.display === 'flex'); {
+        loader.classList.remove('active');
+    }
+
 }
 
 

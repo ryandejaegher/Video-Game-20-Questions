@@ -1873,13 +1873,14 @@ function myFunction() {
 }
 
 function showPage() {
+    var audio = document.querySelector('#soundEffect');
     var gameInfo = document.getElementsByClassName('gameInfo');
+    audio.play();
     gameInfo[0].style.display = 'flex';
     var loader = document.querySelector('.preloader-wrapper');
     if (gameInfo[0].style.display === 'flex'); {
         loader.classList.remove('active');
     }
-
 }
 
 

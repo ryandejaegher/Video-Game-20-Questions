@@ -5,19 +5,43 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Video Game 20</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/materialize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
 </head>
 
 <body>
-    <nav class="headerNav">
-        <a href="#">Video Game 20 Questions</a>
-    </nav>
+        <nav>
+                <div class="nav-wrapper">
+                  <a href="#" class="brand-logo center">IGN</a>
+                  <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li><a href="sass.html">Sass</a></li>
+                    <li><a href="badges.html">Components</a></li>
+                    <li><a href="collapsible.html">JavaScript</a></li>
+                  </ul>
+                </div>
+              </nav>
     <div class="container">
-        <img id="gameCover" src="" alt="">
+
+ <!--            <div class="preloader-wrapper active">
+                    <div class="spinner-layer spinner-red-only">
+                      <div class="circle-clipper left">
+                        <div class="circle"></div>
+                      </div><div class="gap-patch">
+                        <div class="circle"></div>
+                      </div><div class="circle-clipper right">
+                        <div class="circle"></div>
+                      </div>
+                    </div>
+                  </div> this is a loader -->
         <div class="gameInfo">
+            <img id="gameCover" class="z-depth-4" src="" alt="">
             <h3>Game</h3>
             <h2 id="gameName"></h2>
             <h3>Developed By</h3>
@@ -36,9 +60,11 @@
         </form>
     </div>
     <div class="footerButtons">
-            <button onclick="myFunction()">Get Game</button>
-            <button onclick="">Need Help?</button>
-        </div>
+        <a onclick="myFunction()" class="waves-effect waves-light btn-large red">Get Game</a>
+        <a onclick="" class="waves-effect waves-light btn-large red">Need Help?</a>
+    </div>
+    <script src="js/materialize.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
